@@ -34,7 +34,7 @@ function MovieInfo(props) {
         })
 
         // specify that this side effect should only run one time after the component has first rendered
-    }, []);
+    }, [movie_id]);
 
     return (
         <section className="poster">
